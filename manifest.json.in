@@ -1,0 +1,15 @@
+{
+    "name": "appname4.yourname",
+    "description": "A short description of your app",
+    "architecture": "@CLICK_ARCH@",
+    "title": "It's a Test!",
+    "hooks": {
+        "appname4": {
+            "apparmor": "appname4.apparmor",
+            "desktop":  "appname4.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Your FullName <email@domain.org>",
+    "framework" : "ubuntu-sdk-16.04"
+}
