@@ -1,2 +1,10 @@
 build
 .clickable
+
+*.ss~
+*.ss#*
+.#*.ss
+
+*.scm~
+*.scm#*
+.#*.scm
