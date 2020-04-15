@@ -34,7 +34,7 @@ MainView {
 
         header: PageHeader {
             id: header
-            title: i18n.tr('It's a Test!')
+            title: i18n.tr('It\'s a Test!')
         }
 
         Label {
