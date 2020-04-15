@@ -1,4 +1,12 @@
 {
   "template": "cmake",
-  "kill": "appname4"
+  "kill": "appname4",
+  "dependencies_target": [
+    "guile-2.0-dev"
+  ],
+  "install_lib": [
+    "/usr/lib/${ARCH_TRIPLET}/libguile-2.0.so*",
+    "/usr/lib/${ARCH_TRIPLET}/guile*",
+    "/usr/lib/${ARCH_TRIPLET}/libgc.so*"
+  ]
 }
