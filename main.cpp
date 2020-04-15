@@ -23,6 +23,8 @@
 
 int main(int argc, char *argv[])
 {
+    SCM func;
+    // scm_init_guile();
     QGuiApplication *app = new QGuiApplication(argc, (char**)argv);
     app->setApplicationName("appname4.yourname");
 
