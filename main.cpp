@@ -35,6 +35,9 @@ int main(int argc, char *argv[]) {
     scm_init_guile();
     scm_c_primitive_load("script.scm");
 
+    func = scm_variable_ref(scm_c_lookup("simple-script"));
+    scm_call_0(func);
+
     QGuiApplication *app = new QGuiApplication(argc, (char**)argv);
     app->setApplicationName("appname4.yourname");
 
