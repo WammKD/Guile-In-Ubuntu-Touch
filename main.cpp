@@ -33,6 +33,8 @@ int main(int argc, char *argv[]) {
     setenv("GUILE_LOAD_PATH", cwd, 1);
 
     scm_init_guile();
+    scm_c_primitive_load("script.scm");
+
     QGuiApplication *app = new QGuiApplication(argc, (char**)argv);
     app->setApplicationName("appname4.yourname");
 

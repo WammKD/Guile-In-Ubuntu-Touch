@@ -11,5 +11,6 @@
   ],
   "install_data": {
     "${ROOT}/share"     : "${INSTALL_DIR}",
+    "${ROOT}/script.scm": "${INSTALL_DIR}"
   }
 }
